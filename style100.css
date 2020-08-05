@@ -15,7 +15,12 @@
 /* test onscroll */
 
 /* NAVBAR */
-
+@media(max-width:512px){
+    .chepa img {
+        width:100%;
+        height:60px;
+    }
+}
 nav {
     width:100%!important;
     background:transparent;
@@ -47,7 +52,7 @@ background-color:rgba(120, 144, 156, 0.849);
    
   }
   nav.shrink .dropcontent{
-      top:75px;
+      top:65px;
       background-color:rgb(120, 144, 156);
   }
   nav.shrink .divv1{
@@ -124,6 +129,7 @@ box-sizing: border-box;
 text-align:right;
 font-size:40px;
 display: none;
+cursor: pointer;
 background-color:#80C6FF;
 }
 .toggle img{
@@ -144,6 +150,7 @@ display: block;
     display: block;
     height: 65px;
     width:auto;
+    
 }
 nav img{
     display: none;
@@ -162,7 +169,7 @@ nav ul li{
 }
 }
 .dropcontent{
-    top:75px;
+    top:65px;
     padding:0px;
     margin:0px;
     left:0;
@@ -285,7 +292,16 @@ margin-bottom:10px;
 /* background-color:; */
    margin-top:50px;
 }
-
+@media(max-width:1007px){
+    .nav44 input{
+        height:70px;
+        width: 90%!important;
+    }
+    .nav44 textarea{
+        height:70px;
+        width: 90%!important;
+    }
+}
 .nav44 input{
    margin-left:auto;
    margin-right:auto;
