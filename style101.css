@@ -285,6 +285,16 @@ margin-bottom:10px;
 /* background-color:; */
    margin-top:50px;
 }
+@media(max-width:1007px){
+    .nav44 input{
+        height:70px;
+        width: 90%!important;
+    }
+    .nav44 textarea{
+        height:70px;
+        width: 90%!important;
+    }
+}
 
 .nav44 input{
    margin-left:auto;
